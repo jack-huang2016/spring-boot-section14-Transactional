@@ -39,7 +39,6 @@ public class User {
 
     private int status;
 
-    @Column(name="isLocked", length = 1)
     private int isLocked;
 
     @Column(name="update_time")
